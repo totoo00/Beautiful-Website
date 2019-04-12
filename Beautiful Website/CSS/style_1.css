@@ -1,0 +1,265 @@
+*{
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    height: 430px;
+    background-image: url(../img/bg-header.jpg);
+    text-align: center;
+    padding: 150px 280px;
+}
+
+.first p,.first .password,.third p{
+    color: rgba(255,255,255,0.5);
+}
+.first h1,.first h2,.first .email
+,.third h2,.third .white{
+    color: rgba(255,255,255,0.9);
+}
+.first p,.first h2{
+    font-size: 14px;
+}
+.first h1,.first .instro{
+    margin: 0 200px 80px;
+}
+.sign h2{
+    padding: 40px 60px 0;
+}
+.sign p,.sign form{
+    padding: 10px 60px 40px;
+}
+.sign,.sign input,.third .white,.seventh>.write-us input,.seventh>.write-us textarea{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #bbb;
+    border-radius: 0.25em;
+}
+.sign input,
+.sign button,
+.third .black,
+.third .white,
+.seventh>.write-us input,
+.seventh>.write-us textarea,
+.seventh>.write-us button{
+    line-height: 2em;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 8px 15px;
+    
+}
+.sign input,.third .white{
+    width: 200px;
+}
+.second,.fourth,.fifth,.sixth,.eighth{
+    min-height: 400px;
+    padding: 70px 200px 140px;
+}
+
+.second h4,.second h2,.fourth h2,.sixth h2{
+    text-align: center;
+    padding: 0 320px 25px;
+}
+.second .list1{
+    width: 45%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    margin: 30px 0;
+}
+.second img{
+    padding: 10px 30px;
+    float: left;
+}
+.list h3,.list p{
+    padding: 0 10px;
+}
+.list p,.fourth .item,.fifth p,.sixth>p,.seventh>.contacts>p{
+    margin-top: 10px;
+    color: #999;
+}
+
+.third{
+    min-height: 800px;
+    background-image: url(../img/bigbg2.jpg);
+    padding-left: 280px;
+}
+.third .leftinstro{
+    margin: 150px 0;
+    width: 45%;
+    float: left;
+}
+.third h2,.seventh>.contacts h2{
+    font-size: 30px;
+}
+.third h2,.third p{
+    margin-right: 270px;
+    margin-bottom: 30px;
+    color: #eee;
+
+}
+.third>.rightimg{
+    width: 45%;
+    height: 45%;
+    margin: 100px 0px;
+    border: 1px solid #999;
+    overflow: hidden;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    float: right;
+   
+}
+
+.third img{
+    display: inline-block;
+    margin: 15px 0px 15px 50px;
+    z-index: -1;
+}
+.third .white{
+    border-color: #eee
+}
+.fourth,.fifth,.sixth{
+    border-bottom: 1px solid #999;
+    
+}
+.fourth h2{
+    margin: 50px;
+}
+.fourth .item{
+    margin: 30px 70px;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+.fourth img,.fifth h3{
+    margin-bottom: 20px;
+}
+.fifth{
+    padding: 50px 200px;
+}
+.fifth img{
+    margin: 60px 60px 30px;
+}
+.fifth #pra1{
+    width: 25%;
+    margin: 120px 120px 60px 0;
+    float: right;
+}
+.fifth #pra2{
+    width: 25%;
+    margin: 120px 0px 60px 60px;
+    float: left;
+}
+.sixth,.seventh{
+    padding: 80px 250px;
+}
+.sixth *,.seventh>.write-us>h3{
+    text-align: center;
+   
+}
+.sixth>p{
+    margin: 0 250px 25px;
+}
+
+.sixth>div{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 48%;
+    max-height: 48%;
+    margin: 1%;
+}
+.sixth>div>img{
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+.sixth>div>img:hover{
+    z-index: -1;
+}
+.sixth>div>div{
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(50,50,50,0.5);
+}
+.sixth>div>div:hover{
+    z-index: 2;
+    cursor: pointer;
+}
+.sixth>div>div h3{
+    margin-top: 25%;
+}
+.sixth>div>div li{
+   display: inline-block;
+    margin: 2%;
+}
+.seventh{
+    min-height: 400px;
+}
+.seventh>.write-us{
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    float: left;
+
+}
+.seventh>.write-us>h3{
+    margin: 10%;
+}
+.seventh>.write-us input,
+.seventh>.write-us textarea,
+.seventh>.write-us button{
+    width: 70%;
+    margin: 0 0 25px 50px;
+}
+.seventh>.write-us button{
+    border: 0;
+    width: 77%;
+    background-color: #141414;
+    color: #eee;
+}
+.seventh>.contacts{
+    margin: 100px 0 0 55%;
+}
+.seventh>.contacts>div{
+    margin: 50px 0;
+}
+.seventh>.contacts>p{
+    width: 80%;
+}
+.seventh>.contacts>div img{
+    float: left;
+}
+.seventh>.contacts>div p{
+    width: 70%;
+    display: inline-block;
+    margin: 0 0 27px 20px;
+}
+.eighth{
+    min-height: 200px;
+    background-color: #141414;
+    
+}
+.eighth *{
+    font-size: 15px;
+    line-height: 2em;
+    padding: 10px 0;
+}
+
+.eighth>div{
+    width: 25%;
+    float: left;
+
+}
+.eighth a{
+    display: block;
+    text-decoration: none;
+}
+.eighth h3{
+    color: #eee;
+}
+.eighth a{
+    color: #999;
+}
